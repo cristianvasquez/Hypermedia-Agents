@@ -1,0 +1,310 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Handle Requests</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+		<div class="panel-heading root-panel-heading">
+			<b>Handle Requests</b>
+			(<span class="i18n-viewpoint-"></span>)
+			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+		</div>
+		<div class="panel-body root-panel-body">
+			<img class="diagram" src="../images/7327d29f-bc2a-4558-9d18-d373e9834230.png" alt="Handle Requests" usemap="#7327d29f-bc2a-4558-9d18-d373e9834230map">
+			<map name="7327d29f-bc2a-4558-9d18-d373e9834230map">
+								<area shape="rect" coords="910,330,1030,385" href="../elements/7cf35c59-0969-43d6-bd83-15b30c178441.html"  target="element">
+								<area shape="rect" coords="1090,330,1210,385" href="../elements/c82d4afb-b025-4a9e-a6e1-023fcc810d24.html"  target="element">
+								<area shape="rect" coords="670,334,790,389" href="../elements/277726e0-5521-4a37-b6d7-17db6301277f.html"  target="element">
+								<area shape="rect" coords="202,330,322,385" href="../elements/2c130eb0-8e3d-47ca-96ea-09852f5f5795.html"  target="element">
+										<area shape="rect" coords="466,324,599,384" href="../elements/d5ef5369-f111-4c4c-88af-581618d6e11e.html"  target="element">
+										<area shape="rect" coords="394,346,409,361" href="../elements/3e5ae397-1bb6-404d-997e-0084181cc5a1.html"  target="element">
+
+								<area shape="rect" coords="358,288,610,427" href="../elements/00c48588-b38c-4270-a401-ee4666fa611c.html"  target="element">
+
+						<area shape="rect" coords="190,238,1247,467" href="../elements/4416be13-d764-4b5b-a815-8907ec94ac2a.html"  target="element">
+						<area shape="rect" coords="910,586,1030,641" href="../elements/a71ab4d2-9fc6-40d5-94db-45198763a7cc.html"  target="element">
+						<area shape="rect" coords="910,502,1030,557" href="../elements/5996c26e-d801-4446-9684-1a51e0d47a6e.html"  target="element">
+						<area shape="rect" coords="1318,325,1438,380" href="../elements/1c24f631-c662-4bd1-9c5c-cd651a8672d4.html"  target="element">
+						<area shape="rect" coords="10,334,130,389" href="../elements/0c896f09-5c66-47fc-a41b-f1f8660e2c97.html"  target="element">
+								<area shape="rect" coords="910,58,1030,113" href="../elements/676f0ad6-b2ed-40df-b6a3-2ba920b15acd.html"  target="element">
+								<area shape="rect" coords="670,58,790,113" href="../elements/5cbbb579-e9aa-42b4-9e91-83cfd7971f7c.html"  target="element">
+								<area shape="rect" coords="466,58,586,113" href="../elements/a04a4549-500e-478d-a03b-ea671195deaa.html"  target="element">
+
+						<area shape="rect" coords="430,10,1091,150" href="../elements/b7e23b2e-f8f3-4b2a-a911-fefe7893953a.html"  target="element">
+								<area shape="rect" coords="406,558,526,622" href="../elements/16f36c1b-163f-4d78-ae3b-02a556ced49e.html"  target="element">
+								<area shape="rect" coords="226,562,346,617" href="../elements/e1e31100-e4f3-488a-8721-05a066a7e791.html"  target="element">
+
+						<area shape="rect" coords="202,514,574,654" href="../elements/bbabdc99-1162-435b-a332-bcfa6237c8a4.html"  target="element">
+
+			</map>
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<textarea id="docsrc" style="display:none"></textarea>
+						<div id="doctgt" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr><td> <a href="../elements/4416be13-d764-4b5b-a815-8907ec94ac2a.html" target="element"> Handle Request </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
+													<tr><td> <a href="../elements/7cf35c59-0969-43d6-bd83-15b30c178441.html" target="element"> Build Hypermedia Controls </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
+													<tr><td> <a href="../elements/c82d4afb-b025-4a9e-a6e1-023fcc810d24.html" target="element"> Resolve Representation </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
+													<tr><td> <a href="../elements/277726e0-5521-4a37-b6d7-17db6301277f.html" target="element"> Consolidate State </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
+													<tr><td> <a href="../elements/2c130eb0-8e3d-47ca-96ea-09852f5f5795.html" target="element"> Resolve Hypermedia Specs </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
+													<tr><td> <a href="../elements/00c48588-b38c-4270-a401-ee4666fa611c.html" target="element"> Execute Hypermedia Specs </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
+															<tr><td> <a href="../elements/d5ef5369-f111-4c4c-88af-581618d6e11e.html" target="element"> Execute Hypermedia Control </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
+															<tr><td> <a href="../elements/3e5ae397-1bb6-404d-997e-0084181cc5a1.html" target="element"> Junction </a> </td><td class="i18n-elementtype-Junction"></td></tr>
+													
+											
+											<tr><td> <a href="../elements/a71ab4d2-9fc6-40d5-94db-45198763a7cc.html" target="element"> Control Provider </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
+											<tr><td> <a href="../elements/5996c26e-d801-4446-9684-1a51e0d47a6e.html" target="element"> Control Provider Service </a> </td><td class="i18n-elementtype-ApplicationService"></td></tr>
+											<tr><td> <a href="../elements/1c24f631-c662-4bd1-9c5c-cd651a8672d4.html" target="element"> Response </a> </td><td class="i18n-elementtype-Representation"></td></tr>
+											<tr><td> <a href="../elements/0c896f09-5c66-47fc-a41b-f1f8660e2c97.html" target="element"> Request </a> </td><td class="i18n-elementtype-Representation"></td></tr>
+											<tr><td> <a href="../elements/b7e23b2e-f8f3-4b2a-a911-fefe7893953a.html" target="element"> Response </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
+													<tr><td> <a href="../elements/676f0ad6-b2ed-40df-b6a3-2ba920b15acd.html" target="element"> Hypermedia Control </a> </td><td class="i18n-elementtype-DataObject"></td></tr>
+													<tr><td> <a href="../elements/5cbbb579-e9aa-42b4-9e91-83cfd7971f7c.html" target="element"> RDF Data </a> </td><td class="i18n-elementtype-DataObject"></td></tr>
+													<tr><td> <a href="../elements/a04a4549-500e-478d-a03b-ea671195deaa.html" target="element"> Execution Response </a> </td><td class="i18n-elementtype-DataObject"></td></tr>
+											
+											<tr><td> <a href="../elements/bbabdc99-1162-435b-a332-bcfa6237c8a4.html" target="element"> Hypermedia Spec </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
+													<tr><td> <a href="../elements/16f36c1b-163f-4d78-ae3b-02a556ced49e.html" target="element"> Hypermedia Spec </a> </td><td class="i18n-elementtype-DataObject"></td></tr>
+													<tr><td> <a href="../elements/e1e31100-e4f3-488a-8721-05a066a7e791.html" target="element"> API Signature pattern </a> </td><td class="i18n-elementtype-DataObject"></td></tr>
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/66124232-5d3b-4461-89b0-f59cdf74bb02.html" target="element">  </a> </td>
+																		<td> <a href="../elements/66124232-5d3b-4461-89b0-f59cdf74bb02.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/4416be13-d764-4b5b-a815-8907ec94ac2a.html" target="element"> Handle Request </a> </td>
+																		<td> <a href="../elements/7cf35c59-0969-43d6-bd83-15b30c178441.html" target="element"> Build Hypermedia Controls </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/b6e86dc9-d687-49df-a39b-3e40470be1f6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/b6e86dc9-d687-49df-a39b-3e40470be1f6.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/4416be13-d764-4b5b-a815-8907ec94ac2a.html" target="element"> Handle Request </a> </td>
+																		<td> <a href="../elements/c82d4afb-b025-4a9e-a6e1-023fcc810d24.html" target="element"> Resolve Representation </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/28347cee-660b-4a47-aef3-f5ac75a7416b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/28347cee-660b-4a47-aef3-f5ac75a7416b.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/4416be13-d764-4b5b-a815-8907ec94ac2a.html" target="element"> Handle Request </a> </td>
+																		<td> <a href="../elements/277726e0-5521-4a37-b6d7-17db6301277f.html" target="element"> Consolidate State </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/ed1109e9-c016-463f-ad61-fecffcec6e12.html" target="element">  </a> </td>
+																		<td> <a href="../elements/ed1109e9-c016-463f-ad61-fecffcec6e12.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/4416be13-d764-4b5b-a815-8907ec94ac2a.html" target="element"> Handle Request </a> </td>
+																		<td> <a href="../elements/2c130eb0-8e3d-47ca-96ea-09852f5f5795.html" target="element"> Resolve Hypermedia Specs </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/5f96ec5d-fcaf-4def-a89e-484436c89924.html" target="element">  </a> </td>
+																		<td> <a href="../elements/5f96ec5d-fcaf-4def-a89e-484436c89924.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																		<td> <a href="../elements/4416be13-d764-4b5b-a815-8907ec94ac2a.html" target="element"> Handle Request </a> </td>
+																		<td> <a href="../elements/0c896f09-5c66-47fc-a41b-f1f8660e2c97.html" target="element"> Request </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/da55102f-9eef-4968-9b7c-e77605c7710e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/da55102f-9eef-4968-9b7c-e77605c7710e.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																		<td> <a href="../elements/4416be13-d764-4b5b-a815-8907ec94ac2a.html" target="element"> Handle Request </a> </td>
+																		<td> <a href="../elements/1c24f631-c662-4bd1-9c5c-cd651a8672d4.html" target="element"> Response </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/8aba9784-2af1-4098-bd66-2ff4eb205c3b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/8aba9784-2af1-4098-bd66-2ff4eb205c3b.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/4416be13-d764-4b5b-a815-8907ec94ac2a.html" target="element"> Handle Request </a> </td>
+																		<td> <a href="../elements/00c48588-b38c-4270-a401-ee4666fa611c.html" target="element"> Execute Hypermedia Specs </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/30448685-7470-44fe-ad17-089239c3b279.html" target="element"> attach </a> </td>
+																				<td> <a href="../elements/30448685-7470-44fe-ad17-089239c3b279.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/7cf35c59-0969-43d6-bd83-15b30c178441.html" target="element"> Build Hypermedia Controls </a> </td>
+																				<td> <a href="../elements/676f0ad6-b2ed-40df-b6a3-2ba920b15acd.html" target="element"> Hypermedia Control </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/35a72c4d-fdb8-401f-a652-9d00eb8ef966.html" target="element">  </a> </td>
+																				<td> <a href="../elements/35a72c4d-fdb8-401f-a652-9d00eb8ef966.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																				<td> <a href="../elements/7cf35c59-0969-43d6-bd83-15b30c178441.html" target="element"> Build Hypermedia Controls </a> </td>
+																				<td> <a href="../elements/c82d4afb-b025-4a9e-a6e1-023fcc810d24.html" target="element"> Resolve Representation </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/fd67793d-82ae-4f95-b03e-26daa2f3626e.html" target="element">  </a> </td>
+																				<td> <a href="../elements/fd67793d-82ae-4f95-b03e-26daa2f3626e.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																				<td> <a href="../elements/277726e0-5521-4a37-b6d7-17db6301277f.html" target="element"> Consolidate State </a> </td>
+																				<td> <a href="../elements/7cf35c59-0969-43d6-bd83-15b30c178441.html" target="element"> Build Hypermedia Controls </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/e273470c-de81-4725-9fef-141a0639e342.html" target="element"> provides </a> </td>
+																				<td> <a href="../elements/e273470c-de81-4725-9fef-141a0639e342.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/277726e0-5521-4a37-b6d7-17db6301277f.html" target="element"> Consolidate State </a> </td>
+																				<td> <a href="../elements/5cbbb579-e9aa-42b4-9e91-83cfd7971f7c.html" target="element"> RDF Data </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/0aca2c3e-0501-4016-8379-74d0be861287.html" target="element">  </a> </td>
+																				<td> <a href="../elements/0aca2c3e-0501-4016-8379-74d0be861287.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/2c130eb0-8e3d-47ca-96ea-09852f5f5795.html" target="element"> Resolve Hypermedia Specs </a> </td>
+																				<td> <a href="../elements/e1e31100-e4f3-488a-8721-05a066a7e791.html" target="element"> API Signature pattern </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/f3cf826f-7b15-4e96-9a49-f407c18f8731.html" target="element">  </a> </td>
+																				<td> <a href="../elements/f3cf826f-7b15-4e96-9a49-f407c18f8731.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																				<td> <a href="../elements/2c130eb0-8e3d-47ca-96ea-09852f5f5795.html" target="element"> Resolve Hypermedia Specs </a> </td>
+																				<td> <a href="../elements/00c48588-b38c-4270-a401-ee4666fa611c.html" target="element"> Execute Hypermedia Specs </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/33c78a64-a7e5-42d0-bf69-e497a0597d3a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/33c78a64-a7e5-42d0-bf69-e497a0597d3a.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/00c48588-b38c-4270-a401-ee4666fa611c.html" target="element"> Execute Hypermedia Specs </a> </td>
+																				<td> <a href="../elements/d5ef5369-f111-4c4c-88af-581618d6e11e.html" target="element"> Execute Hypermedia Control </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/53971480-2d7d-4f67-a1e0-41dcb686320d.html" target="element">  </a> </td>
+																				<td> <a href="../elements/53971480-2d7d-4f67-a1e0-41dcb686320d.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																				<td> <a href="../elements/00c48588-b38c-4270-a401-ee4666fa611c.html" target="element"> Execute Hypermedia Specs </a> </td>
+																				<td> <a href="../elements/277726e0-5521-4a37-b6d7-17db6301277f.html" target="element"> Consolidate State </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/474c7561-eb91-4ff6-8227-5c0afa2ab86a.html" target="element"> generates many </a> </td>
+																				<td> <a href="../elements/474c7561-eb91-4ff6-8227-5c0afa2ab86a.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/00c48588-b38c-4270-a401-ee4666fa611c.html" target="element"> Execute Hypermedia Specs </a> </td>
+																				<td> <a href="../elements/a04a4549-500e-478d-a03b-ea671195deaa.html" target="element"> Execution Response </a> </td>
+																			</tr>
+
+																					<tr>
+																						<td> <a href="../elements/27b51714-bf22-4cfb-9e92-bd0301c6957d.html" target="element"> For all </a> </td>
+																						<td> <a href="../elements/27b51714-bf22-4cfb-9e92-bd0301c6957d.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																						<td> <a href="../elements/3e5ae397-1bb6-404d-997e-0084181cc5a1.html" target="element"> Junction </a> </td>
+																						<td> <a href="../elements/d5ef5369-f111-4c4c-88af-581618d6e11e.html" target="element"> Execute Hypermedia Control </a> </td>
+																					</tr>
+
+													
+											
+																	<tr>
+																		<td> <a href="../elements/6bd7af03-14cf-4bb4-ac83-c0e47b9b5a45.html" target="element">  </a> </td>
+																		<td> <a href="../elements/6bd7af03-14cf-4bb4-ac83-c0e47b9b5a45.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/a71ab4d2-9fc6-40d5-94db-45198763a7cc.html" target="element"> Control Provider </a> </td>
+																		<td> <a href="../elements/5996c26e-d801-4446-9684-1a51e0d47a6e.html" target="element"> Control Provider Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/bc8ad754-15b8-4414-b09b-d4f8f53e214f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/bc8ad754-15b8-4414-b09b-d4f8f53e214f.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																		<td> <a href="../elements/a71ab4d2-9fc6-40d5-94db-45198763a7cc.html" target="element"> Control Provider </a> </td>
+																		<td> <a href="../elements/16f36c1b-163f-4d78-ae3b-02a556ced49e.html" target="element"> Hypermedia Spec </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/0a0a7e5c-9cbc-41a3-bc76-e16e06a6c830.html" target="element">  </a> </td>
+																		<td> <a href="../elements/0a0a7e5c-9cbc-41a3-bc76-e16e06a6c830.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/5996c26e-d801-4446-9684-1a51e0d47a6e.html" target="element"> Control Provider Service </a> </td>
+																		<td> <a href="../elements/7cf35c59-0969-43d6-bd83-15b30c178441.html" target="element"> Build Hypermedia Controls </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/2c4a1e40-af33-4bf6-a99f-703a04f587ce.html" target="element">  </a> </td>
+																		<td> <a href="../elements/2c4a1e40-af33-4bf6-a99f-703a04f587ce.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/b7e23b2e-f8f3-4b2a-a911-fefe7893953a.html" target="element"> Response </a> </td>
+																		<td> <a href="../elements/676f0ad6-b2ed-40df-b6a3-2ba920b15acd.html" target="element"> Hypermedia Control </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/6b146954-6a86-434d-ba9a-c086414d6fa7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/6b146954-6a86-434d-ba9a-c086414d6fa7.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/b7e23b2e-f8f3-4b2a-a911-fefe7893953a.html" target="element"> Response </a> </td>
+																		<td> <a href="../elements/5cbbb579-e9aa-42b4-9e91-83cfd7971f7c.html" target="element"> RDF Data </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/f1aef0a0-d993-4b5e-a45f-0d8cd8f3edba.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f1aef0a0-d993-4b5e-a45f-0d8cd8f3edba.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/b7e23b2e-f8f3-4b2a-a911-fefe7893953a.html" target="element"> Response </a> </td>
+																		<td> <a href="../elements/a04a4549-500e-478d-a03b-ea671195deaa.html" target="element"> Execution Response </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/5a2e1238-10b3-468c-9aa1-57f0fbc6eea1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/5a2e1238-10b3-468c-9aa1-57f0fbc6eea1.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/bbabdc99-1162-435b-a332-bcfa6237c8a4.html" target="element"> Hypermedia Spec </a> </td>
+																		<td> <a href="../elements/16f36c1b-163f-4d78-ae3b-02a556ced49e.html" target="element"> Hypermedia Spec </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/f6f71c10-334e-43d5-b02e-1d4e3ae0a715.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f6f71c10-334e-43d5-b02e-1d4e3ae0a715.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/bbabdc99-1162-435b-a332-bcfa6237c8a4.html" target="element"> Hypermedia Spec </a> </td>
+																		<td> <a href="../elements/e1e31100-e4f3-488a-8721-05a066a7e791.html" target="element"> API Signature pattern </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/7149fa8d-e604-4e30-9b8a-5b637f4e6a1a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/7149fa8d-e604-4e30-9b8a-5b637f4e6a1a.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/16f36c1b-163f-4d78-ae3b-02a556ced49e.html" target="element"> Hypermedia Spec </a> </td>
+																				<td> <a href="../elements/e1e31100-e4f3-488a-8721-05a066a7e791.html" target="element"> API Signature pattern </a> </td>
+																			</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
