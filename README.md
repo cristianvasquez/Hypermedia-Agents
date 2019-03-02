@@ -1,6 +1,2 @@
-# Hypermedia-Agents
-Some blueprints
+# Initial page
 
-https://hypermedia-agents.cristianvasquez.me/html/
-
-Cristian Vasquez
